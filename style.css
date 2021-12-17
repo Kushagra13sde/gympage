@@ -1,0 +1,101 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.section1 {
+
+    background-image: url('https://images.pexels.com/photos/2247179/pexels-photo-2247179.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+    height: 37rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgim {
+    background: rgba(0, 0, 0, 0.644);
+    background-size: cover;
+    top: 0px;
+    width: 100%;
+    left: 0px;
+    height: 37em;
+    position: absolute;
+
+}
+
+.navbar {
+    display: flex;
+    /* border: 2px solid blue; */
+    justify-content: center;
+    /* z-index: 2; */
+    
+}
+.logo{
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    border: 3px solid white;
+    position: absolute;
+    left: 12px;
+    top: 12px;
+    padding: 4px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar a {
+    display: flex;
+    text-decoration: none;
+    text-shadow: 1px 2px 3px black;
+    font-size: 23px;
+    color: white;
+    margin: 26px 26px 12px 26px;
+    
+}
+.navbar a:hover{
+    /* color: aqua; */
+    text-decoration: underline lightcoral ;
+}
+/* .navbar a:active{
+    text-decoration: underline lightcoral;
+}
+.navbar a:visited{
+    text-decoration: underline lightcoral;
+} */
+.box1{
+    /* border: 2px solid purple; */
+    width: 79%;
+    height: 22rem;
+    position: relative;
+    display: flex;
+    top: 8rem;
+    left: 7rem;
+
+}
+#logo2
+{
+    font-size: 2rem;
+}
+.slogan{
+    font-size: 5rem;
+    position: absolute;
+    top: 5rem;
+    color: white;
+    text-shadow: -2px 3px 6px black;
+    font-family: 'Lato', sans-serif;
+    left: 12px;
+}
+#tryfree{
+    position: absolute;
+    top: 13rem;
+    border: 2px solid tomato;
+    padding: 5px;
+    font-family: 'Lato', sans-serif;
+    color:white;
+    background-color: lightcoral;
+    left: 12px;
+    cursor: pointer;
+
+}
