@@ -1,0 +1,49 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+body{
+    background-color: aqua;
+}
+.section1{
+    background-image: url('https://images.pexels.com/photos/1431282/pexels-photo-1431282.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')!important;
+    min-height: 66rem;
+    min-width: 37rem;
+}
+.bgim{
+    background: rgba(0, 0, 0, 0.356)!important;
+    min-width: 37rem;
+    min-height: 158%;
+}
+
+.navbar a{
+    margin: 3px;
+    position: relative;
+    top: 45px;
+}
+#logo1{
+    margin-left: 185px;
+    font-size: 22px;
+}
+
+.slogan{
+    font-size: 56px !important;
+}
+.item{
+    margin: -10px;
+    margin-top: 27px;
+}
+#tryfree{
+    top: 16rem !important;
+}
+
+.box1{
+    position: absolute;
+    box-sizing: border-box;
+    margin-left: -88px;
+    top: 22rem;
+    margin-top: 5rem;
+    width: 36px;
+    max-width: 29rem;
+    /* border: 3px solid yellow; */
+}
